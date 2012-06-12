@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:text="View Data" 
+    android:textStyle="bold"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:id="@+id/txtVwDataTitle">
+    </TextView>
+    
+    <TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:text="Table Name" 
+    android:textAppearance="?android:attr/textAppearanceSmall" 
+    android:id="@+id/txtVwDataTbl">
+    </TextView>
+    
+    <EditText 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:id="@+id/edtTxtDataTbl">
+    </EditText>
+    
+    <LinearLayout 
+    
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:id="@+id/linearLayout1" 
+    android:orientation="vertical">
+    
+        <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:text="Number of data" 
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:id="@+id/txtVwNum">
+        </TextView>
+        
+        <EditText 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent" 
+        android:id="@+id/edtTxtDataNum" 
+        android:inputType="number">
+            <requestFocus>
+            </requestFocus>
+        </EditText>
+    </LinearLayout>
+    <LinearLayout 
+    
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:id="@+id/linearLayout1" 
+    android:orientation="horizontal">
+    
+    <Button 
+    android:text="View Results" 
+    android:id="@+id/btnResultData" 
+    android:layout_weight="1"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+    
+    <Button 
+    android:text="Back" 
+    android:id="@+id/btnBckData" 
+    android:layout_weight="1"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+    </LinearLayout>
+    
+</LinearLayout>

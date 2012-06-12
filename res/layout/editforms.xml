@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+    <TextView 
+  	android:layout_height="wrap_content" 
+  	android:textAppearance="?android:attr/textAppearanceLarge" 
+  	android:text="Edit Forms" 
+  	android:textSize="35dp"
+  	android:textStyle="bold"
+  	android:layout_width="wrap_content">
+  	</TextView>
+  
+	<Button 
+  	android:text="Rename Table" 
+  	android:id="@+id/btnEdtFrmReTbl" 
+  	android:layout_width="match_parent" 
+  	android:layout_height="wrap_content">
+  	</Button>  
+  	
+  	<Button 
+  	android:text="Delete Table" 
+  	android:id="@+id/btnEdtFrmDltTbl" 
+  	android:layout_width="match_parent" 
+  	android:layout_height="wrap_content">
+  	</Button>  
+  	
+  	<Button 
+  	android:text="Add Field" 
+  	android:id="@+id/btnEdtFrmAddFld" 
+  	android:layout_width="match_parent" 
+  	android:layout_height="wrap_content"
+  	android:visibility="gone">
+  	</Button>  
+  	
+  	<Button 
+  	android:text="Rename Field" 
+  	android:id="@+id/btnEdtFrmReFld" 
+  	android:layout_width="match_parent" 
+  	android:visibility="gone"
+  	android:layout_height="wrap_content">
+  	</Button>  
+  	
+  	<Button 
+  	android:text="Delete Field" 
+  	android:id="@+id/btnEdtFrmDltFld" 
+  	android:layout_width="match_parent" 
+  	android:layout_height="wrap_content">
+  	</Button>    
+  
+  	<Button 
+  	android:text="Back" 
+  	android:id="@+id/btnBckEdtFrm" 
+  	android:layout_width="match_parent" 
+  	android:layout_height="wrap_content">
+  	</Button>  
+	
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView 
+    android:id="@+id/textView2" 
+    android:text="Database Previews" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginLeft="70dp">
+    </TextView>
+    
+    <Button 
+    android:text="View Tables" 
+    android:id="@+id/btnTblView" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    </Button>
+    
+    <Button 
+    android:text="View Fields" 
+    android:id="@+id/btnFieldsView" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+    
+    <Button 
+    android:text="View Data" 
+    android:id="@+id/btnDataView" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+    
+    <Button 
+    android:text="Back" 
+    android:id="@+id/btnBckViews" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+    
+    <TextView android:id="@+id/textView1" android:text="TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+    
+</LinearLayout>

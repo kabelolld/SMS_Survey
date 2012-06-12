@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:id="@+id/LinReTbl"
+  android:layout_height="match_parent">
+    <TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:text="Rename Table" 
+    android:textStyle="bold"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:textSize="30dp"
+    android:id="@+id/textView1">
+    </TextView>
+    <TextView 
+    android:text="" 
+    android:id="@+id/textView4" 
+    android:layout_width="wrap_content" 
+    android:layout_height="15dp">
+    </TextView>
+    
+    <TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:text="Old Table Name" 
+    android:textAppearance="?android:attr/textAppearanceSmall" 
+    android:id="@+id/textView2">
+    </TextView>
+    
+    <EditText 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    
+    android:id="@+id/edtTxtOldName">
+    </EditText>
+    
+    <LinearLayout 
+    
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:id="@+id/LinHide" 
+    android:orientation="vertical">
+    
+        <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:text="New Table Name" 
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:id="@+id/txtVwBottom">
+        </TextView>
+        
+        <EditText 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent" 
+        android:id="@+id/edtTxtNewName" 
+        >
+            <requestFocus>
+            </requestFocus>
+        </EditText>
+    </LinearLayout>
+    <LinearLayout 
+    
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:id="@+id/linearLayout1" 
+    android:orientation="horizontal">
+    
+    <Button 
+    android:text="View Results" 
+    android:id="@+id/btnRsltTbl" 
+    android:layout_weight="1"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+    
+    <Button 
+    android:text="Back" 
+    android:id="@+id/btnBckTbl" 
+    android:layout_weight="1"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+    </LinearLayout>
+    
+</LinearLayout>

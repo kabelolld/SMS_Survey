@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#707070" 
+    android:orientation="vertical">
+    
+    <TextView 
+    	 android:text="Message Options"
+    	 android:textColor="#000000"
+    	 android:background="#707070" 
+    	 android:id="@+id/textView1"
+    	 android:textSize="20dp"
+    	 android:layout_width="fill_parent"
+    	 android:layout_height="40dp" 
+    	
+    	 android:layout_gravity="center"></TextView>
+    	 <Button
+         android:id="@+id/btnCreateSms"
+         android:text="Send SMS"
+         android:layout_width="fill_parent"
+       	 android:layout_height="65dp"></Button>
+       	 <TextView 
+    	 android:visibility="invisible"
+    	 android:textColor="#000000"
+    	 android:textSize="20dp"
+    	 android:layout_width="fill_parent"
+    	 android:layout_height="60dp" 
+    	 android:layout_gravity="center"></TextView>
+       	
+       	<Button
+        android:id="@+id/btnViewInbox"
+        android:text="Inbox"
+        android:layout_width="fill_parent"
+       	android:layout_height="65dp"></Button>
+       	
+       	<Button android:layout_height="65dp"
+       	 android:text="Back To Home"
+       	 android:id="@+id/BtnBackhome"
+       	 android:layout_width="fill_parent"></Button>
+    	 
+    	 <TextView 
+       	 android:visibility="visible"
+       	 android:text="       Copyright 2012-SMS Survey, Rights Reserved"
+       	 android:textColor="#000000"
+       	 android:background="#707070"
+       	 android:layout_height="fill_parent"
+       	 android:layout_width="fill_parent"></TextView>
+       	 
+ </LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  
+  android:layout_height="match_parent">
+  
+    	 <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:id="@+id/LinInflate"
+  android:layout_height="wrap_content">
+    	 
+     	<DigitalClock 
+     	
+     	android:layout_gravity="right"
+   		android:id="@+id/digitalClock1"
+    	android:text="DigitalClock"
+     	android:layout_height="wrap_content"
+      	android:layout_width="wrap_content">
+      	</DigitalClock>
+    	 
+  		 <TextView android:text="               			Database Views"
+  		  android:id="@+id/TextView01"
+  		  
+  		  android:background="#000000"
+  		  
+  		  android:layout_height="wrap_content"
+  		  android:layout_width="fill_parent">
+  		  </TextView>
+  		  
+  		  
+  		 <ListView 	
+  		 android:id="@+id/ListViewIdForms" 
+  		 android:textSize="1dip"
+  		 android:layout_width="match_parent"
+  		 
+  		 android:padding="2dip"
+  		 android:layout_height="wrap_content"
+  		 android:clickable="true"
+  		 ></ListView>
+  		   
+        <Button 
+         android:id="@+id/btnMain3"
+         android:layout_height="wrap_content" 
+         
+         android:layout_width="fill_parent"
+         android:soundEffectsEnabled="true"
+         android:text="Back To Form Menu"
+         ></Button>
+        
+        <TextView android:text="Copyright 2012-SMS Survey, Rights Reserved"
+         android:id="@+id/TextView02"
+         android:visibility="visible"
+         android:background="#000000"
+         
+         android:layout_height="25dp"
+         android:layout_width="fill_parent">
+         </TextView>
+        
+    	</LinearLayout>  
+</LinearLayout>

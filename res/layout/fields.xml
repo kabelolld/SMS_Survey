@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+   
+	<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:text=""  
+    android:textSize="30dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:id="@+id/txtVwDlt">
+    </TextView>
+    
+    <TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:text="Table Name" 
+    android:textAppearance="?android:attr/textAppearanceSmall" 
+    android:id="@+id/textView2">
+    </TextView>
+    
+    <EditText 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:lines="1"
+    android:maxLines="1"
+    android:id="@+id/edtTxtFldTblName">
+    </EditText>
+    
+    <LinearLayout 
+    
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:id="@+id/linLayHideFld" 
+    android:orientation="vertical">
+    
+    <TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:text="Field Name" 
+    android:textAppearance="?android:attr/textAppearanceSmall" 
+    android:id="@+id/textView2">
+    </TextView>
+    
+    <EditText 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:lines="1"
+    android:maxLines="1"
+    android:id="@+id/edtTxtDltField">
+    </EditText>
+    </LinearLayout>
+    
+    <LinearLayout 
+    
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:id="@+id/linearLayout1" 
+    android:orientation="horizontal">
+    
+    <Button 
+    android:text="View Results" 
+    android:id="@+id/btnFldRslts" 
+    android:layout_weight="1"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+    
+    <Button 
+    android:text="Back" 
+    android:id="@+id/btnFldBck" 
+    android:layout_weight="1"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+    </LinearLayout>
+    
+</LinearLayout>

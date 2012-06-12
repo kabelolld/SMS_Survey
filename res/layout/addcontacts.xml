@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#707070" 
+    android:orientation="vertical">
+	<TextView  
+   	 	android:layout_width="fill_parent" 
+    	android:layout_height="25dp" 
+    	android:text="SMS Survey"
+    	android:textColor="#000000"
+    	android:background="#707070" 
+    />
+	
+	<TextView 
+	android:visibility="visible"
+	android:layout_width="fill_parent"
+	android:layout_height="20dp"
+	android:textColor="#000000"
+	android:text="First Name"></TextView>
+	
+	<EditText android:layout_width="match_parent"
+	 android:id="@+id/edtName"
+	 android:layout_height="wrap_content"
+	 android:inputType="textPersonName">
+	
+	<requestFocus></requestFocus>
+	</EditText>
+	
+	<TextView android:visibility="invisible"
+	 android:layout_width="fill_parent"
+	 android:layout_height="50dp"></TextView>
+	
+	<TextView android:textColor="#000000" 
+	android:visibility="visible"
+	android:layout_width="fill_parent"
+	android:text="Last Name"
+	android:layout_height="20dp"
+	></TextView>
+	
+	
+	<EditText android:layout_width="match_parent"
+	 android:inputType="phone"
+	 android:id="@+id/edtLastName"
+	 android:layout_height="wrap_content"></EditText>
+	
+	<TextView android:visibility="invisible"
+	 android:layout_width="fill_parent"
+	 android:layout_height="50dp"></TextView>
+	 
+	<TextView android:textColor="#000000"
+	 android:visibility="visible"
+	 android:layout_width="fill_parent"
+	 android:text="Email"
+	 android:layout_height="20dp"></TextView>
+	
+	<EditText android:layout_width="match_parent"
+	 android:id="@+id/edtEmail"
+	 android:layout_height="wrap_content"
+	 android:inputType="textEmailAddress">
+		
+	</EditText>
+	<Button android:id="@+id/btnAddContacts"
+	 android:text="Add Contact"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"></Button>
+	
+	<Button 
+	 android:id="@+id/btnBackVw"
+	 android:text="Back To View Conatcts"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"></Button>
+	
+	<TextView 
+	 android:textColor="#000000"
+	 android:layout_width="fill_parent"
+	 android:text="Copyright 2012-SMS Survey, Rights Reserved"
+	 android:background="#707070"
+	 android:layout_height="fill_parent"></TextView>
+    
+    </LinearLayout>

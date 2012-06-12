@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <TextView 
+    android:layout_height="wrap_content" 
+    android:id="@+id/txtVwDlt" 
+    android:layout_width="wrap_content" 
+    android:textSize="40dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="Delete" 
+   >
+    </TextView>
+    
+    <TextView 
+    android:text="Table Name" 
+    android:id="@+id/txtVwDltTblName" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+    </TextView>
+    
+    <EditText 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:id="@+id/edtTxtDltTblName">
+        <requestFocus></requestFocus>
+    </EditText>
+    
+     <LinearLayout 
+    android:layout_width="match_parent" 
+    android:id="@+id/linLayDltFldHide" 
+    android:layout_height="wrap_content" 
+    android:orientation="vertical" 
+    android:layout_weight="0">
+    
+    	<TextView 
+    	android:text="Field Name" 
+    	android:id="@+id/txtVwDltFldName" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content">
+    	</TextView>
+    
+    	<EditText 
+    	android:layout_height="wrap_content" 
+   		android:layout_width="match_parent" 
+    	android:id="@+id/edtTxtDltFldName">
+    	</EditText>
+    </LinearLayout>
+    
+    <LinearLayout 
+    android:layout_width="match_parent" 
+    android:id="@+id/linLayDltBtn" 
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal" 
+    android:layout_weight="0">
+        
+        <Button 
+        android:layout_height="wrap_content" 
+        android:id="@+id/btnDltRslt" 
+        android:text="Delete" 
+        android:layout_width="wrap_content" 
+        android:layout_weight="1">
+        </Button>
+        
+        <Button 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/btnBckDlt" 
+        android:text="Back" 
+        android:layout_weight="1">
+        </Button>
+    </LinearLayout>
+    
+</LinearLayout>

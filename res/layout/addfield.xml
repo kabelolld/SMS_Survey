@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <LinearLayout 
+    
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:id="@+id/linearLayout1" 
+    android:orientation="horizontal">
+  
+    <TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:text="Add Fields" 
+    android:textStyle="bold"
+    android:layout_weight="1"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:textSize="30dp"
+    android:id="@+id/textView1">
+    </TextView>
+    <ImageView 
+    android:id="@+id/ImgViewMinus" 
+    android:layout_height="wrap_content" 
+    android:src="@android:drawable/ic_menu_delete" 
+    android:layout_width="wrap_content">
+    </ImageView>
+    
+    <ImageView 
+    android:src="@android:drawable/ic_menu_add" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/ImgAddField" 
+    android:layout_width="wrap_content">
+    </ImageView>  
+    </LinearLayout>
+    
+    <TextView 
+    android:text="" 
+    android:id="@+id/textView4" 
+    android:layout_width="wrap_content" 
+    android:layout_height="15dp">
+    </TextView>
+    
+    
+
+    <ScrollView
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:id="@+id/ScrllViewAddFields"
+    android:fadeScrollbars="true">
+    
+    	<LinearLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	android:orientation="vertical"
+    	android:id="@+id/LinLayView">
+    	
+    	<TextView 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:text="Table Name" 
+    	android:textAppearance="?android:attr/textAppearanceSmall" 
+    	android:id="@+id/textView2">
+    	</TextView>
+    	
+    	<EditText 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="match_parent" 
+    	android:id="@+id/edtTxtTblAdd">
+    	</EditText>
+    	<LinearLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	android:orientation="vertical"
+    	android:id="@+id/LinLayAddField">	
+		</LinearLayout>
+		</LinearLayout>	
+	</ScrollView>
+    
+        
+    
+    <LinearLayout 
+    
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:id="@+id/linearLayout1" 
+    android:orientation="horizontal">
+    
+    <Button 
+    android:text="View Results" 
+    android:id="@+id/btnRsltAdd" 
+    android:layout_weight="1"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+    
+    <Button 
+    android:text="Back" 
+    android:id="@+id/btnBckAdd" 
+    android:layout_weight="1"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#FFFFFF" 
+    android:orientation="vertical">
+    
+    	<TextView 
+    	 android:text="Form Options"
+    	 android:textColor="#000000"
+    	 android:id="@+id/textView1"
+    	 android:textSize="20dp"
+    	 android:layout_width="fill_parent"
+    	 android:layout_height="40dp" 
+    	
+    	 android:layout_gravity="center"></TextView>
+        
+        <TextView android:id="@+id/textView3" 
+        android:layout_height="35dp"  
+        android:layout_width="fill_parent" 
+        android:background="#707070"
+        android:visibility="visible"></TextView>
+	
+     	<Button
+        android:id="@+id/btnCreate"
+        android:text="Create Form"
+        android:layout_width="fill_parent"
+       	android:layout_height="65dp"></Button>
+       	
+       	<Button
+        android:id="@+id/btnView"
+        android:text="View Forms"
+        android:layout_width="fill_parent"
+       	android:layout_height="65dp"></Button>
+       	
+       	<Button
+        android:id="@+id/btnEdit"
+        android:text="Edit Forms"
+        android:layout_width="fill_parent"
+       	android:layout_height="65dp"></Button>
+       	
+       	      	
+       	<Button android:layout_height="65dp"
+       	 android:text="Back To Main Menu"
+       	 android:id="@+id/btnMain"
+       	 android:layout_width="fill_parent" android:soundEffectsEnabled="true"></Button>
+       	 
+       	<TextView android:id="@+id/TextView01"
+       	 android:visibility="visible"
+       	 android:background="#707070"
+       	 android:layout_height="35dp"
+       	 android:layout_width="fill_parent"></TextView>
+       	
+       	<TextView android:id="@+id/TextView02"
+       	 android:visibility="visible"
+       	 android:text="       Copyright 2012-SMS Survey, Rights Reserved"
+       	 android:textColor="#000000"
+       	 android:background="#707070"
+       	 android:layout_height="fill_parent"
+       	 android:layout_width="fill_parent"></TextView>
+    </LinearLayout>
